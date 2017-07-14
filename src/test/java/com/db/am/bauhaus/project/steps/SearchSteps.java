@@ -51,7 +51,7 @@ public class SearchSteps {
         user.search_from_input_box(product);
     }
     
-    @When("^he searches for a \"(.*?)\" from the drop down menu$")
+    @When("^he selects \"(.*?)\" from the drop down menu$")
     public void search_from_drop_dowm_menu(String product) {
         user.search_from_drop_down_menu(product);
     }
